@@ -57,6 +57,7 @@ public class FirstFragment extends Fragment {
         count++;
         showCountTextView.setText(Integer.toString(count));
     }
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
